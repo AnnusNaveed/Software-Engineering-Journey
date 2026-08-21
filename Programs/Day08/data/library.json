@@ -1,0 +1,20 @@
+[
+    {
+        "id": "B001",
+        "title": "Python Programming",
+        "author": "Annus",
+        "available": true
+    },
+    {
+        "id": "B002",
+        "title": "Clean Code",
+        "author": "Robert",
+        "available": true
+    },
+    {
+        "id": "B003",
+        "title": "File Handling",
+        "author": "Mark",
+        "available": false
+    }
+]

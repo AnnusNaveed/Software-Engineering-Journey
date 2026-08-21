@@ -1,0 +1,26 @@
+[
+    {
+        "Name": "Annus",
+        "Age": 22,
+        "Department": "BSCS",
+        "CGPA": 3.82
+    },
+    {
+        "Name": "Ali",
+        "Age": 21,
+        "Department": "BSCS",
+        "CGPA": 3.45
+    },
+    {
+        "Name": "Ahmed",
+        "Age": 23,
+        "Department": "BSSE",
+        "CGPA": 3.71
+    },
+    {
+        "Name": "Sara",
+        "Age": 22,
+        "Department": "BSCS",
+        "CGPA": 3.91
+    }
+]

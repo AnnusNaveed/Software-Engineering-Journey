@@ -1,0 +1,17 @@
+[
+    {
+        "description": "Electricity Bill",
+        "amount": 4500.0,
+        "category": "Utilities"
+    },
+    {
+        "description": "Grocery Shopping",
+        "amount": 3200.0,
+        "category": "Food"
+    },
+    {
+        "description": "Electricity Bill",
+        "amount": 4500.0,
+        "category": "Appended Utilities"
+    }
+]

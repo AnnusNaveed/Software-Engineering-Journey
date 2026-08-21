@@ -1,0 +1,3 @@
+Today I learned JSON.
+I practiced exception handling.
+Learned JSON and exception handling.

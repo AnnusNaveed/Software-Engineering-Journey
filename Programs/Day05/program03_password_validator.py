@@ -1,40 +1,6 @@
 def line():
     print("-" * 32)
 
-
-print("=" * 32)
-print("\tPrograms Development")
-print("=" * 32)
-
-# Program 1 — String Basics Utility
-"""Take the user's name and display useful information."""
-line()
-print("Program 1 — String Basics Utility")
-line()
-
-name = input("Enter Your Full Name: ")
-print("\n------ String Information ------")
-
-print(f"Original Name : {name}")
-print(f"Uppercase     : {name.upper()}")
-print(f"Lowercase     : {name.lower()}")
-print(f"Title Case    : {name.title()}")
-print(f"Characters    : {len(name)}")
-print(f"Words         : {len(name.split())}")
-
-# Program 2 — Palindrome Checker
-"""A palindrome reads the same forward and backward."""
-line()
-print("Program 2 — Palindrome Checker")
-line()
-
-word = input("Enter a Word: ").lower()
-
-if word == word[::-1]:  # new concept used for the reverse of string/sequence
-    print("Palindrome")
-else:
-    print("Not Palindrome")
-
 # Program 3 — Password Validator
 """Rules
 Password must have:
@@ -156,36 +122,3 @@ while True:
         print("⭐ Very Weak Password")
     line()
     print("\nPlease try again.\n")
-
-# Program 4 — Email Validator
-"""
-Check whether an email follows a basic format.
-Rules
-Contains @
-Ends with .com """
-
-line()
-print("Program 4 — Email Validator")
-line()
-
-while True:
-    email = input("Enter your email :").strip()
-    if "@" in email and email.endswith(".com"):
-        print("Valid Email")
-        print("--------Terminated--------")
-        break
-    else:
-        print("Invalid Email ! Try Again")
-        line()
-
-# Program 5 — Text Analyzer
-line()
-print("Program 5 — Text Analyzer")
-line()
-
-text = input("Enter Text: ")
-print("\n------ Analysis ------")
-print("Characters :", len(text))
-print("Words :", len(text.split()))
-print("Uppercase :", text.upper())
-print("Lowercase :", text.lower())
